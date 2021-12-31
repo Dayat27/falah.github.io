@@ -159,8 +159,8 @@ h1{
 span{
 	position: fixed;
 	text-align: center;
-	margin-left: 10;
-	margin-right: 10;
+	margin-left: 10px;
+	margin-right: 10px;
 	bottom: 45%;
 	color: #FFFF00;
 	text-decoration: none;
