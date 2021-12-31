@@ -111,7 +111,7 @@ body {
 	transform: scale(1);
 }
 #firework4 .explosion::before {
-	background-color: #05ddf5;
+	background-color: #ff33fc;
 	animation: explosion 2s .3s ease-in-out infinite;
 }
 
@@ -121,6 +121,7 @@ body {
 	transform: scale(.9);
 }
 #firework5 .explosion::before {
+	background-color: #05ddf5;
 	animation: explosion 2s .8s ease-in-out infinite;
 }
 #firework6 {
@@ -150,13 +151,12 @@ h1{
 	font-size: 20px;
 }
 
-.nt{
-	font-style: italic;
+
+span{
 	position: fixed;
 	text-align: center;
-	top: 55%;
-	color: #fff;
+	bottom: 45%;
+	color: #FFFF00;
 	text-decoration: none;
-	font-size: 18px;
-
+	font-size: 16px;
 }
