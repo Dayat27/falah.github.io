@@ -81,23 +81,82 @@ body {
 	transform: scale(1);
 }
 #firework1 .explosion::before {
+	background-color: #caf552;
 	animation: explosion 2s ease-in-out infinite;
 }
 
 #firework2 {
 	left: 40%;
-	top: 45%;
+	top: 40%;
 	transform: scale(.7);
 }
 #firework2 .explosion::before {
+	background-color: #20f727;
 	animation: explosion 2s .6s ease-in-out infinite;
 }
 
 #firework3 {
 	left: 60%;
-	top: 65%;
-	transform: scale(.4);
+	top: 70%;
+	transform: scale(.6);
 }
 #firework3 .explosion::before {
+	background-color: #f50505;
 	animation: explosion 2s .4s ease-in-out infinite;
+}
+
+#firework4 {
+	left: 20%;
+	top: 20%;
+	transform: scale(1);
+}
+#firework4 .explosion::before {
+	background-color: #05ddf5;
+	animation: explosion 2s .3s ease-in-out infinite;
+}
+
+#firework5 {
+	left: 80%;
+	top: 80%;
+	transform: scale(.9);
+}
+#firework5 .explosion::before {
+	animation: explosion 2s .8s ease-in-out infinite;
+}
+#firework6 {
+	left: 60%;
+	top: 30%;
+	transform: scale(.6);
+}
+#firework6 .explosion::before {
+	animation: explosion 2s .5s ease-in-out infinite;
+}
+
+h1{
+	position: fixed;
+	text-align: center;
+	bottom: 55%;
+	color: #fff;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+.watermark{
+	position: fixed;
+	text-align: center;
+	bottom: 10%;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nt{
+	font-style: italic;
+	position: fixed;
+	text-align: center;
+	top: 55%;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+
 }
